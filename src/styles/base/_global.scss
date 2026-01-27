@@ -1,0 +1,22 @@
+@use '../abstracts/variables'as *;
+@use 'sass:math';
+
+body {
+  background-color: $bg-color;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+p {
+  padding-left: $p-padding;
+  padding-right: $p-padding;
+}
+
+ul {
+  padding-left: 60px;
+  padding-right: 60px;
+}

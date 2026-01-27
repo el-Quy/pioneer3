@@ -1,0 +1,119 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  z-index: 100;
+  margin-top: -8px;
+  margin-bottom: -9px;
+  padding-bottom: 4px;
+
+a,
+button {
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.2rem 0;
+  padding-bottom: 0.6rem;
+
+  position: relative;
+  overflow: visible; 
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease,
+    text-shadow 0.3s ease;
+}
+
+  /* Arrow Effect (::before pseudo-element) */
+  a::before,
+  button::before {
+    content: '▷';
+    margin-right: 0.5rem;
+    transition: content 0.3s ease;
+    /* This transition won't work but keeps code clean */
+  }
+
+  /* Underline Effect (::after pseudo-element) */
+  a::after,
+  button::after {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    /* better for mobile */
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.2s ease-out;
+  }
+
+  /* Hover State */
+  a:hover,
+  button:hover {
+    /* Subtle position shift and text shadow */
+    transform: translate(-3px, -2px);
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Hover state for the Arrow */
+  a:hover::before,
+  button:hover::before {
+    content: '▶';
+  }
+
+  /* Hover state for the Underline */
+  a:hover::after,
+  button:hover::after {
+    width: 100%;
+  }
+}
+
+/* ---------------------- Mobile Styling ---------------------- */
+@media (max-width: 600px) {
+  nav {
+    //*spacing from gumroad button
+
+    padding: 0.8rem;
+    gap: 0.3rem;
+
+    /* Stack items vertically */
+    flex-direction: column;
+
+    /* Align to the left */
+    align-items: flex-start;
+
+    /* No wrap needed since it's now a column */
+    flex-wrap: nowrap;
+  }
+
+  nav a,
+  nav button {
+    font-size: 23px;
+    //spacing between menu items
+    padding: 0.2em 0;
+    width: 100%;
+    /* optional: full width tap target */
+    text-align: left;
+    /* make sure text aligns left */
+  }
+
+  /* Optional: move underline closer for mobile */
+  nav a::after,
+  nav button::after {
+    bottom: 4px;
+  }
+}
+
+
+/* Divider (unchanged but cleaned) */
+.divider {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+}

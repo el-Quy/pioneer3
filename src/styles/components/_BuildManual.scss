@@ -1,0 +1,53 @@
+@use '../abstracts/variables'as *;
+
+.build-manual {
+  h2 {
+    color: black;
+    margin-top: 2px;
+    margin-left: 13px;
+    margin-bottom: 2px;
+  }
+}
+
+.subassembly-title {
+  color: white;
+  margin-left: -16px;
+  padding-left: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 35px;
+  background-color: black;
+  position: relative;
+}
+
+.post-cure-warning {
+  font-family: 'sofia sans';
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.overflow-image {
+  position: absolute;
+  top: $overflow-image-top;
+  /* Adjust as needed */
+  right: 0;
+
+  /* Adjust as needed */
+  width: $overflow-image-width;
+  max-width: $overflow-image-max-width;
+  /* Optional: control size */
+  z-index: 1;
+  /* Ensure it appears above other elements */
+}
+
+.carousel-section {
+  margin-bottom: .998rem;
+  margin-right: $caroussel-side-margins;
+  margin-left: $caroussel-side-margins;
+}
+
+@media (min-width: 1200px) {
+  .overflow-image {
+    right: 200px;
+  }
+}

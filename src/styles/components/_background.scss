@@ -1,0 +1,19 @@
+:root {
+  --bg-size: 270px;
+}
+
+.parallax-wallpaper.fixed-bg {
+  position: fixed;
+  inset: -5vh -35vw;
+  z-index: 0;
+  pointer-events: none;
+  will-change: background-position;
+  background-image: url('/images/decorative/wallpaper.svg');
+  background-repeat: repeat;
+  background-position: 60px var(--bg-y, 0);
+  background-size: var(--bg-size) auto;
+}
+
+.no-wallpaper .parallax-wallpaper.fixed-bg {
+  display: none;
+}

@@ -1,0 +1,77 @@
+@use '../abstracts/variables'as *;
+
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: clamp(12px, 3vw, 24px);
+
+  /* ✅ default logo height (override per page / per instance) */
+  --logo-h: 96px;
+}
+
+.brand-header .brand-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-heading {
+  margin-left: $brand-heading-margin-left;
+}
+
+.brand-header .sub-h1 {
+  display: flex;
+}
+
+/* Logo layout */
+.brand-header .logo-section,
+.brand-header .logo-link {
+  display: flex;
+  align-items: center;
+}
+
+/* ✅ logo sizing is NOW only controlled by --logo-h */
+.brand-header .logo-link img {
+  height: var(--logo-h);
+  width: auto;
+  display: block;
+  user-select: none;
+}
+
+@media (max-width: 800px) {
+  .brand-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand-header .logo-section {
+    margin: 10.1px auto -1.1rem;
+  }
+
+  .brand-header .brand-heading {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .brand-header h1 {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .brand-header .sub-h1 {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+    letter-spacing: normal;
+  }
+
+  .sub-h1__item {
+    line-height: 0.9;
+  }
+
+  .brand-header .sub-h1__dot {
+    display: none;
+  }
+}

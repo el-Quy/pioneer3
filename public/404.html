@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/ui/favicon.svg" />
+    <link rel="alternate icon" href="/images/ui/favicon.png" sizes="32x32" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pioneer 3</title>
+    <script>
+      // Redirect to the root with hash for GitHub Pages
+      (function () {
+        var path = window.location.pathname;
+        var search = window.location.search;
+
+        // Remove leading slash from path
+        var hashPath = path.slice(1);
+
+        // Redirect to index.html with hash
+        window.location.replace(window.location.origin + '/#/' + hashPath + search);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- This will redirect before the body renders -->
+  </body>
+</html>

@@ -1,0 +1,95 @@
+@use '../abstracts/variables'as *;
+
+.hero-bg {
+  position: relative;
+  width: 100%;
+  height: $hero-separator-height;
+  /* Or whatever height it needs */
+  /* Good practice if children might extend beyond its bounds */
+  /* For visibility during testing */
+
+  margin-bottom: $hero-margin-bottom;
+}
+
+.cta-button {
+  box-shadow: 2px 1px 1px 0px #000000;
+  margin-left: 20px;
+  display: flex;
+  justify-content: left;
+  border: none;
+  border-radius: 25px;
+  margin-top: $cta-button-margin-top;
+  background-color: #38c5a9;
+  width: $cta-button-width;
+  height: 110px;
+
+  img {
+    width: 350px; // or 24px if you want it smaller
+    height: auto;
+    max-height: 100%;
+  }
+}
+
+.cta-gumroad {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('/images/logo/gumroad.svg');
+
+  &:hover {
+    background-image: url('/images/logo/gumroadHover.svg');
+  }
+}
+
+.cta-button {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  cursor: pointer;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.cta-button:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 1px 0px #000000af;
+}
+
+.hero-separator {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: $hero-separator-width;
+  height: auto;
+}
+
+.right-separator {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: $hero-separator-width - 1px;
+  width: 100vw;
+  /* Example value */
+  height: $hero-separator-step;
+  background-color: $secondary-color;
+}
+
+.left-separator {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  /* Aligned to the bottom of .hero-bg */
+  left: -100vw;
+  /* Starts from the very left edge of .hero-bg */
+  width: 100.5vw;
+  /* Example: Define its width */
+  height: $hero-separator-height;
+  /* Example: Define its height */
+  background-color: $secondary-color;
+  /* For testing visibility */
+}
+
+strong {
+  padding-top: 40px;
+}

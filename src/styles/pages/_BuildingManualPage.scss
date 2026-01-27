@@ -1,0 +1,115 @@
+@use '../abstracts/variables'as *;
+
+.manual-page {
+  min-height: 100dvh;
+  background-color: #fff;
+  color: #111;
+
+  display: flex;
+  flex-direction: column;
+
+  /* SUB ASSEMBLY title row */
+  .subassembly-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    text-transform: uppercase;
+    margin-bottom: $subassembly-title-margin;
+    margin-top: $subassembly-title-margin;
+    flex-direction: column;
+  }
+
+  .post-cure-warning {
+    font-size: clamp(0.6rem, 1.1vw, 0.75rem);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+
+  /* ---------- Global overrides already in your snippet ---------- */
+
+  #Logo,
+  #Logo h1,
+  #Logo .sub-h1,
+  #Logo .sub-h1 span {
+    color: #111;
+  }
+
+  body.no-global {
+    background: #fff;
+    background-image: none;
+    color: #111;
+  }
+
+  body.parallax-wallpaper.fixed-bg {
+    background: #fff;
+    background-image: none;
+  }
+}
+
+/* ---------- Responsiveness ---------- */
+
+.logo-link {
+  margin-top: 12px;
+}
+
+.manual-page .brand-header {
+  --logo-h: 117px;
+}
+
+@media (max-width: 650px) {
+  #Logo h1 {
+
+    font-size: 95px;
+
+  }
+}
+
+@media (max-width: 1200px) {
+  #Logo h1 {
+    margin-top: -6px;
+    font-size: 130px;
+  }
+
+  .logo-link {
+    margin-top: 12px;
+  }
+
+  .manual-page .brand-header {
+    padding-top: 0;
+    --logo-h: 98px;
+  }
+}
+
+@media (max-width: 800px) {
+  #Logo h1 {
+
+    font-size: clamp(48px, 24vw, 1130px);
+    text-align: center;
+
+  }
+
+}
+
+/* tiny phones */
+@media (max-width: 800px) {
+  .brand-heading {
+    margin-left: 0;
+  }
+
+  .brand-heading h1 {
+    //* margin-bottom for landing page H1 as well. -----------------------------------------------
+    margin-bottom: 10px;
+  }
+
+  .overflow-image {
+    align-self: center;
+
+  }
+
+
+
+}

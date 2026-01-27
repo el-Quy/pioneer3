@@ -1,0 +1,138 @@
+/* -----------------------------------
+   TYPOGRAPHY — Global Font Styles
+   ----------------------------------- */
+
+/* Font Imports (Google Fonts) */
+@use '../abstracts/variables'as *;
+@import url('https://fonts.googleapis.com/css2?family=Smythe&family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&family=Sofia+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+
+/* Font Stacks */
+$font-smythe: 'Smythe',
+cursive;
+$font-orbitron: 'Orbitron',
+sans-serif;
+$font-rajdhani: 'Rajdhani',
+sans-serif;
+$font-sofia: 'Sofia Sans',
+sans-serif;
+
+/* Base Typography */
+body {
+  font-family: $font-sofia;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+  color: $primary-color;
+}
+
+.text-indent {
+  text-indent: $text-indent;
+}
+
+/* Headings */
+h1 {
+  margin-top: 0px;
+  margin-left: -5px;
+  font-family: $font-rajdhani;
+  font-weight: 900;
+  font-size: $h1-font-size;
+  line-height: 0.9;
+  color: $secondary-color;
+
+  /* This applies ONLY when the screen is 768px or narrower */
+  @media (max-width: $breakpoint-md) {
+
+    margin-top: -16.4px;
+    /* Adjust the value as needed */
+
+  }
+
+}
+
+
+
+.sub-h1 {
+  font-family: $font-rajdhani;
+  font-weight: 600;
+  color: $secondary-color;
+  font-size: $sub-h1-font-size;
+  margin-top: $sub-h1-font-margin-top;
+  letter-spacing: $sub-letter-spacing;
+}
+
+h2 {
+  margin-left: -5px;
+  margin-bottom: $h2-margin-bottom;
+  font-family: $font-orbitron;
+  font-weight: $h2-font-weight;
+  font-size: $h2-font-size;
+  line-height: $h2-font-height;
+  color: $secondary-color;
+  text-shadow: $h2-text-shadow;
+  letter-spacing: $h2-letter-spacing;
+}
+
+.cta {
+
+  margin-top: $cta-top;
+  padding-left: $cta-padding-left;
+  padding-top: $cta-padding-top;
+  font-family: $font-orbitron;
+  font-size: $cta-font-size;
+  color: $primary-color;
+  line-height: $cta-line-height;
+  font-weight: 200;
+  -webkit-text-stroke: 1px black;
+
+  span {
+    font-size: $cta-span-font-size;
+    font-weight: 900;
+    -webkit-text-stroke: 2px black;
+  }
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-orbitron;
+  font-weight: 700;
+  line-height: 0.4;
+  margin-bottom: -30px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 1200;
+  text-decoration: solid;
+  text-shadow: 1px 1px 0px rgb(60, 22, 130);
+}
+
+/* Utility Font Classes */
+.font-smythe {
+  font-family: $font-smythe;
+}
+
+.font-orbitron {
+  font-family: $font-orbitron;
+}
+
+.font-rajdhani {
+  font-family: $font-rajdhani;
+}
+
+.font-sofia {
+  font-family: $font-sofia;
+}
+
+q {
+  font-style: italic;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: $q-margin-bottom;
+}
