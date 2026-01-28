@@ -19,8 +19,7 @@ function QAndA() {
     },
     { q: 'Where does it come from?', a: 'Quisque eget luctus mi...' },
     { q: 'Why do we use it?', a: 'Suspendisse massa risus...' },
-    { q: 'Why do we use it?', a: 'Suspendisse massa risus...' },
-    { q: 'Why do we use it?', a: 'Suspendisse massa risus...' },
+
   ];
 
   return (
