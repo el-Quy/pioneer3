@@ -1,50 +1,54 @@
 ## 🤖 Quyzone – Phase 1 Web Development: Putting out my MVP (Minimal Viable Product) to the world
 
-🎯 Objective
-Deliver a clean, functional, and lightweight website that:
 
-Acts as a visual ad for the Mech Bust model kit (-->mvp).
+tentative launch: end of February
+model kits of mechs but only the busts.  Gundam similar style design but original IP
+USP: models are printable, posable, perfectible(customizable)
 
-Includes 3 short videos (w/ loading anim if needed)
+for users:
+granular division of parts for easy painting.
+animated building manual online + hierarchical building logic of subassemblies
+friction based tension joints by using mini rubber bands.
+pieces are made to all be printed on elegoo mars foot print size
+cheaper dollar wise than buying same size gunplay
+hitting the tranche of market of 3d resin printer owners who also like to make mecha model kits
 
-Puts forward a link to Gumroad to download the printable kit and pay for it.
+for me:
+animated manual for gaining/retaining traffic, great SEO, moat against piracy.
+off-loading risk of shipping&handling, inventory, printing.
+Extreme lean business, manageable with team of 1-3.
 
-Provides downloadable building manuals.
+product:
+3d files. STLS.  to be resin printed.  user pays for the files and prints it him/herself. Base model (skeleton) is as PayWahtYouWant.  Addons are behind paywall
+articulations for the spine of the bust enhanced with cushioned parts casted (high friction rubber)are also orderable.
+decals behind paywall
 
-Includes an FAQ.
+MVP(Pioneer3) is the skull PWYW
 
-Offers a contact form. (can we do it without having a backend?)
+soon to come:
+-addon as 3d printable skins 
+-basic spine PWYW
+-basic decals 
 
-Lays a foundation for future development by:
--Practicing proper React component structure.
--Defining graphic and UI/UX standards.
--Writing modular and reusable Sass.
+Medium term plans:
+upgrade for the skull for:
+-samurai-style
+-medieval knight-style
+-animalistic-style
 
-wishlist:
--lazyloading
--sick parallax effect /w wallpaper
--carrousel (w/ loading anim if needed) (Embla maybe?)
+future plans:
+facilitate open source design for the mech
+online marketplace to allow community to sells their own design.  I skim
+online marketplace for artist to sell curated pieces to collectors.  I skim
 
-⚙️ Stack & Tools
-Framework: Vite + React (to be discussed)
+phase N: 
+vertical control of business selling modular 3dprinters made specifically to print parts for mech, intergrated with API for printing parts from my marketplace 
+Sell equipement for weathering and painting
 
-Styling: Sass (modular)
-
-Assets: Static files in /public (manual PDFs, images, etc.)
-
-Pages:
-
-LandingPage.jsx --> quyzone.com
-
-SupportPage.jsx (merged with FAQ) --> quyzone.com\support
-
-Routing: react-router-dom (SPA-style navigation)
-
-???:
-
-- Offers a contact form. (can we do it without having a backend?)
-- deploymemt to ionos
-- video preloaded in folder no backend
-
-For me:
-![image](https://github.com/user-attachments/assets/5d61af25-04a0-4c22-b565-d24950666586)
+Current documentation:
+domain hub Quyzone.com linking to:
+-story.quyzone.com for extra lore content + graphic novel
+-quyzone.gunroad.com Gumroad for selling products
+-Pioneer3.quyzone.com react app for product info + animated building manual
+art style:
+irreverent Kim jung gi style, chibi design, very caricatural
