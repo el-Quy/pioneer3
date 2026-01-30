@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Logo = ({ to = 'https://www.quyzone.com/' }) => {
+const Logo = ({ to = 'https://www.quyzone.com/' }) => {// was const Logo = ({ to = '/' }) => {
   return (
     <section className="logo-section">
       <Link to={to} className="logo-link" aria-label="Go to home">
