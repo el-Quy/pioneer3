@@ -25,11 +25,11 @@ function BuildManual() {
     { type: 'video', src: '/videos/manual/anim-a01-1.mp4', alt: 'Slide 4' },
   ];
   const carousel2Captions = [
-    'Step 2 Preview',
-    'Part A-0 (P.C.N.R.)*',
-    'Part A-1(R) (P.C.N.R.)*',
-    'A-1(R) \u27A4 A-0',
-    'A-1(L) \u27A4 A-0',
+    'Step Final Result',
+    'Part A-0 Print Orientation (P.C.N.R.)*',
+    'Part A-1(R) Print Orientation (P.C.N.R.)*',
+    'Join: A-1(R) \u27A4 A-0',
+    'Join: A-1(L) \u27A4 A-0',
   ];
 
   // Data for carousel 3
@@ -48,7 +48,7 @@ function BuildManual() {
     },
   ];
   const carousel3Captions = [
-    'Step 3 Preview',
+    'Step Final Result',
     'Part A-2 (P.C.N.R.)*',
     'A-2 \u27A4 A-1',
     'A-2 \u27A4 A-1',
@@ -70,7 +70,7 @@ function BuildManual() {
     },
   ];
   const carousel4Captions = [
-    'Step 4 Preview',
+    'Step Final Result',
     'Part A-3 (P.C.N.R.)*',
     'A-3 \u27A4 A-0',
     'A-3 \u27A4 A-0',
@@ -88,7 +88,7 @@ function BuildManual() {
     },
   ];
   const carousel5Captions = [
-    'Step 5 Preview',
+    'Step Final Result',
     'Part A-5 (P.C.N.R.)*',
     'Part A-6 (P.C.N.R.)*',
     'A-6 \u27A4 A-5',
@@ -111,7 +111,7 @@ function BuildManual() {
     },
   ];
   const carousel6Captions = [
-    'Step 6 Preview',
+    'Step Final Result',
     'A-3 \u27A4 A-0',
     'A-3 \u27A4 A-0',
   ];
@@ -133,7 +133,7 @@ function BuildManual() {
     },
   ];
   const carousel7Captions = [
-    'Step 7 Preview',
+    'Step Final Result',
     'Part A-3 (P.C.N.R.)*',
     'A-4 \u27A4 A-3',
     'A-4 \u27A4 A-3',
@@ -156,7 +156,7 @@ function BuildManual() {
 
   ];
   const carousel8Captions = [
-    'Step 8 Preview',
+    'Step Final Result',
     'Part B-0 (P.C.N.R.)*',
     'Part B-1 (P.C.N.R.)*',
     'B-0 \u27A4 B-1',
@@ -181,7 +181,7 @@ function BuildManual() {
   ];
 
   const carousel9Captions = [
-    'Step 9 Preview',
+    'Step Final Result',
     'Part B-2 (P.C.N.R.)*',
     'B-2 \u27A4 B-1',
     'B-2 \u27A4 B-1'
@@ -206,7 +206,7 @@ function BuildManual() {
   ];
 
   const carousel10Captions = [
-    'Step 10 Preview',
+    'Step Final Result',
     'Part B-3 (P.C.N.R.)*',
     'B-0 \u27A4 B-0 + B-2',
     'B-0 \u27A4 B-0 + B-2',
@@ -233,7 +233,7 @@ function BuildManual() {
 
   ];
   const carousel11Captions = [
-    'Step 11 Preview',
+    'Step Final Result',
     'Part B-4 (P.C.N.R.)*',
     'B-0 \u27A4 B-0 + B-2 + B-3',
     'B-0 \u27A4 B-0 + B-2 + B-3',
