@@ -256,8 +256,8 @@ function BuildManual() {
   // Data for carousel C1
   const carouselC1Items = [
     { type: 'img', src: '/images/manual/pres-C01.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
-    { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C01.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C02.jpg', alt: 'Slide 2' },
     { type: 'img', src: '/images/manual/xtra-C01.jpg', alt: 'Slide 2' },
     {
       type: 'video',
@@ -276,14 +276,15 @@ function BuildManual() {
     'Part C-1 Print Orientation (P.C.N.R.)*',
     'Part C-2 Print Orientation (P.C.N.R.)*',
     'Assembly Order Reference',
-    'Join: C-1 \u27A4 C-0',
-    'Join: C-1 \u27A4 C-0',
+    'Join: C-2 \u27A4 C-1',
+    'Join: C-2 \u27A4 C-1',
   ];
 
   // Data for carousel C2
   const carouselC2Items = [
     { type: 'img', src: '/images/manual/pres-C02.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C03.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-C02.jpg', alt: 'Slide 2' },
     {
       type: 'video',
       src: '/videos/manual/anim-c02-2.mp4',
@@ -299,15 +300,17 @@ function BuildManual() {
   ];
   const carouselC2Captions = [
     'Step Final Result',
-    'Part C-2 Print Orientation (P.C.N.R.)*',
-    'Join: C-2 \u27A4 C-0',
-    'Join: C-2 \u27A4 C-0 (Both Sides)',
+    'Part C-3 Print Orientation (P.C.N.R.)*',
+    'Assembly Joints',
+    'Join: C-3 \u27A4 C-0',
+    'Join: C-3 \u27A4 C-0 (Both Sides)',
   ];
 
   // Data for carousel C3 step 13
   const carouselC3Items = [
     { type: 'img', src: '/images/manual/pres-C03.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-C03.jpg', alt: 'Slide 2' },
     {
       type: 'video',
       src: '/videos/manual/anim-c03-1.mp4',
@@ -318,9 +321,10 @@ function BuildManual() {
   ];
   const carouselC3Captions = [
     'Step 11 Preview',
-    'Part B-4 Print Orientation (P.C.N.R.)*',
-    'B-0 \u27A4 B-0 + B-2 + B-3',
-    'B-0 \u27A4 B-0 + B-2 + B-3',
+    'Part C-4 Print Orientation (P.C.N.R.)*',
+    'Assembly Joints',
+    'Join: C-4 \u27A4 C-0',
+
   ];
 
   // Data for carousel C4
@@ -395,7 +399,7 @@ function BuildManual() {
   // Data for carousel C7
   const carouselC7Items = [
     { type: 'img', src: '/images/manual/pres-C07.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C08.jpg', alt: 'Slide 2' },
     {
       type: 'video',
       src: '/videos/manual/anim-c07-1.mp4',
@@ -407,9 +411,9 @@ function BuildManual() {
   ];
   const carouselC7Captions = [
     'Step Final Result',
-    'Part C-7 Print Orientation (P.C.N.R.)*',
-    'Join: C-7 \u27A4 C-0',
-    'Join: C-7 \u27A4 C-0',
+    'Part C-8 Print Orientation (P.C.N.R.)*',
+    'Join: C-8 \u27A4 C-7 (Both Sides)',
+
   ];
 
   //-------------------------------------------------------------------------------------------------------------------------------//
