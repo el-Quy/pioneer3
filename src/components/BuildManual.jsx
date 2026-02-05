@@ -123,9 +123,9 @@ function BuildManual() {
   ];
   const carousel6Captions = [
     'Step Final Result',
-    'Join: A-3 \u27A4 A-0',
-    'Join: A-3 \u27A4 A-0',
-    'Join: A-3 \u27A4 A-0',
+    'Join: A-5 \u27A4 A-2 & A-3',
+    'Join: A-5 \u27A4 A-2 & A-3',
+    'Join: A-5 \u27A4 A-2 & A-3',
   ];
 
   // Data for carousel6
@@ -361,7 +361,7 @@ function BuildManual() {
   // Data for carousel C5
   const carouselC5Items = [
     { type: 'img', src: '/images/manual/pres-C05.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-C05.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C06.jpg', alt: 'Slide 2' },
     { type: 'img', src: '/images/manual/xtra-C06.jpg', alt: 'Slide 2' },
 
     {
@@ -375,9 +375,10 @@ function BuildManual() {
   ];
   const carouselC5Captions = [
     'Step Final Result',
-    'Part C-5 Print Orientation (P.C.N.R.)*',
-    'Join: C-5 \u27A4 C-0',
-    'Join: C-5 \u27A4 C-0',
+    'Part C-6 Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Join: C-6 \u27A4 C-4',
+
   ];
 
   // Data for carousel c6
@@ -429,6 +430,62 @@ function BuildManual() {
   //-------------------------------------------------------------------------------------------------------------------------------//
   //------------------------------------------------------- DATA FOR SUB D --------------------------------------------------------//
   //-------------------------------------------------------------------------------------------------------------------------------//
+  // Data for carousel D00
+  const carouselD0Items = [
+    { type: 'img', src: '/images/manual/pres-D00.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-D01.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-D02.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-D03.jpg', alt: 'Slide 2' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-d00-0.mp4',
+      alt: 'Alt video',
+    },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-d00-1.mp4',
+      alt: 'Alt video',
+    },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-d00-2.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselD0Captions = [
+    'Step Final Result',
+    'Key Connections',
+    'Key Connections',
+    'Key Connections',
+    'Join: Sub-assemblies A \u27A4 B \u27A4 C',
+    'Join: C-4 \u27A4 A-0',
+    'Join: B-4 \u27A4 A-3 A-4 C-3',
+  ];
+
+
+  // Data for carousel D01
+  const carouselD1Items = [
+    { type: 'img', src: '/images/manual/pres-C07.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-C08.jpg', alt: 'Slide 2' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-c07-1.mp4',
+      alt: 'Alt video',
+    },
+
+
+
+  ];
+  const carouselD1Captions = [
+    'Step Final Result',
+    'Part C-8 Print Orientation (P.C.N.R.)*',
+    'Join: C-8 \u27A4 C-7 (Both Sides)',
+
+  ];
+
+
+
 
 
   //-------------------------------------------------------------------------------------------------------------------------------//
@@ -542,7 +599,10 @@ function BuildManual() {
             <img className="overflow-image" src="./images/decorative/assemblyD.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carousel1Items} captions={carousel1Captions} title="1" />
+            <MediaCarousel itemsData={carouselD0Items} captions={carouselD0Captions} title="1" />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselD0Items} captions={carouselD0Captions} title="2" />
           </section>
         </section>
         <section>
