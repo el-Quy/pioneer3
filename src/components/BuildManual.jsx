@@ -63,6 +63,8 @@ function BuildManual() {
   const carousel4Items = [
     { type: 'img', src: '/images/manual/pres-A-4.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/A-4.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-A04.jpg', alt: 'Slide 1' },
+
     {
       type: 'video',
       src: '/videos/manual/anim-a02-back.mp4',
@@ -77,6 +79,7 @@ function BuildManual() {
   const carousel4Captions = [
     'Step Final Result',
     'Part A-3 Print Orientation (P.C.N.R.)*',
+    'Release Trigger Mechanism',
     'Join: A-3 \u27A4 A-0',
     'Join: A-3 \u27A4 A-0',
   ];
@@ -244,8 +247,8 @@ function BuildManual() {
   const carousel11Captions = [
     'Step Final Result',
     'Part B-4 Print Orientation (P.C.N.R.)*',
-    'Join: B-0 \u27A4 B-0 B-2 B-3',
-    'Join: B-0 \u27A4 B-0 B-2 B-3',
+    'Join: B-0 \u27A4 B-0 & B-2 & B-3',
+    'Join: B-0 \u27A4 B-0 & B-2 & B-3',
 
   ];
 
@@ -275,7 +278,7 @@ function BuildManual() {
     'Step Final Result',
     'Part C-1 Print Orientation (P.C.N.R.)*',
     'Part C-2 Print Orientation (P.C.N.R.)*',
-    'Assembly Order Reference',
+    'Key Connections & Order',
     'Join: C-2 \u27A4 C-1',
     'Join: C-2 \u27A4 C-1',
   ];
@@ -301,9 +304,9 @@ function BuildManual() {
   const carouselC2Captions = [
     'Step Final Result',
     'Part C-3 Print Orientation (P.C.N.R.)*',
-    'Assembly Joints',
-    'Join: C-3 \u27A4 C-0',
-    'Join: C-3 \u27A4 C-0 (Both Sides)',
+    'Key Connections',
+    'Join: C-3 \u27A4 C-2',
+    'Join: C-3 \u27A4 C-2 (Both Sides)',
   ];
 
   // Data for carousel C3 step 13
@@ -320,17 +323,19 @@ function BuildManual() {
 
   ];
   const carouselC3Captions = [
-    'Step 11 Preview',
+    'Step Final Result',
     'Part C-4 Print Orientation (P.C.N.R.)*',
-    'Assembly Joints',
-    'Join: C-4 \u27A4 C-0',
+    'Key Connections',
+    'Join: C-4 \u27A4 C-2',
 
   ];
 
   // Data for carousel C4
   const carouselC4Items = [
     { type: 'img', src: '/images/manual/pres-C04.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C05.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-C05.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-C05-1.jpg', alt: 'Slide 2' },
     {
       type: 'video',
       src: '/videos/manual/anim-c04-1.mp4',
@@ -346,15 +351,19 @@ function BuildManual() {
   ];
   const carouselC4Captions = [
     'Step Final Result',
-    'Part C-4 Print Orientation (P.C.N.R.)*',
-    'Join: C-4 \u27A4 C-0',
-    'Join: C-4 \u27A4 C-0',
+    'Part C-5 Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Key Connections',
+    'Join: C-5 \u27A4 C-1 & C-2 & C-3 & C-4 (Both Sides)',
+    'Join: C-5 \u27A4 C-1 & C-2 & C-3 & C-4 (Both Sides)',
   ];
 
   // Data for carousel C5
   const carouselC5Items = [
     { type: 'img', src: '/images/manual/pres-C05.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C05.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-C06.jpg', alt: 'Slide 2' },
+
     {
       type: 'video',
       src: '/videos/manual/anim-c05-1.mp4',
@@ -374,8 +383,8 @@ function BuildManual() {
   // Data for carousel c6
   const carouselC6Items = [
     { type: 'img', src: '/images/manual/pres-C06.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/pres-C07.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/ori-C07.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-C07.jpg', alt: 'Slide 2' },
     {
       type: 'video',
       src: '/videos/manual/anim-c06-1.mp4',
@@ -391,9 +400,10 @@ function BuildManual() {
   ];
   const carouselC6Captions = [
     'Step Final Result',
-    'Part C-6 Print Orientation (P.C.N.R.)*',
-    'Join: C-6 \u27A4 C-0',
-    'Join: C-6 \u27A4 C-0',
+    'Part C-7 Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Join: C-7 \u27A4 C-4 & C-6',
+    'Join: C-7 \u27A4 C-4 & C-6',
   ];
 
   // Data for carousel C7
