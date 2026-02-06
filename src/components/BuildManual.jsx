@@ -466,21 +466,32 @@ function BuildManual() {
 
   // Data for carousel D01
   const carouselD1Items = [
-    { type: 'img', src: '/images/manual/pres-C07.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-C08.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/pres-D01.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-D01.jpg', alt: 'Slide 2' },
     {
       type: 'video',
-      src: '/videos/manual/anim-c07-1.mp4',
+      src: '/videos/manual/anim-D01-0.mp4',
       alt: 'Alt video',
     },
-
+    {
+      type: 'video',
+      src: '/videos/manual/anim-D01-3.mp4',
+      alt: 'Alt video',
+    },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-D01-4.mp4',
+      alt: 'Alt video',
+    },
 
 
   ];
   const carouselD1Captions = [
     'Step Final Result',
-    'Part C-8 Print Orientation (P.C.N.R.)*',
-    'Join: C-8 \u27A4 C-7 (Both Sides)',
+    'Part D-1 Print Orientation (P.C.N.R.)*',
+    'Join: D-1(R) \u27A4 A-3 $ A-4 & C-3(R)(Both Sides)',
+    'Join: D-1(R) \u27A4 A-3 $ A-4 & C-3(R)(Both Sides)',
+    'Join: D-1(R) Release Mechanism',
 
   ];
 
@@ -599,12 +610,15 @@ function BuildManual() {
             <img className="overflow-image" src="./images/decorative/assemblyD.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD0Items} captions={carouselD0Captions} title="1" />
+            <MediaCarousel itemsData={carouselD0Items} captions={carouselD0Captions} title="18" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD0Items} captions={carouselD0Captions} title="2" />
+            <MediaCarousel itemsData={carouselD1Items} captions={carouselD1Captions} title="19" />
           </section>
+
+
         </section>
+
         <section>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY E
@@ -615,6 +629,7 @@ function BuildManual() {
             <MediaCarousel itemsData={carousel1Items} captions={carousel1Captions} title="1" />
           </section>
         </section>
+
         <section>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY F
