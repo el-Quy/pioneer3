@@ -488,7 +488,7 @@ function BuildManual() {
   ];
   const carouselD1Captions = [
     'Step Final Result',
-    'Part D1 Print Orientation (P.C.N.R.)*',
+    'Part D1(R) Print Orientation (P.C.N.R.)*',
     'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
     'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
     'Join: D1(R) Release Mechanism',
@@ -509,8 +509,8 @@ function BuildManual() {
   ];
   const carouselD2Captions = [
     'Step Final Result',
-    'Part D2R Print Orientation (P.C.N.R.)*',
-    'Part D4R Print Orientation (P.C.N.R.)*',
+    'Part D2(R) Print Orientation (P.C.N.R.)*',
+    'Part D4(R) Print Orientation (P.C.N.R.)*',
     'Join: D4(R) \u27A4 D2(R) (Both Sides)',
 
 
@@ -531,12 +531,51 @@ function BuildManual() {
   const carouselD3Captions = [
     'Step Final Result',
     'Key Connections',
-    'Join: D2(R) \u27A4 D1(R) C8(R) (Both Sides)',
+    'Join: D2(R) \u27A4 D1(R) + C8(R) (Both Sides)',
+
+
+  ];
+  // Data for carousel D04  
+  const carouselD4Items = [
+    { type: 'img', src: '/images/manual/pres-D04.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-D03R.jpg', alt: 'Slide 2' },
+
+    {
+      type: 'video',
+      src: '/videos/manual/anim-D04.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselD4Captions = [
+    'Step Final Result',
+    'Part D3(R) Print Orientation (P.C.N.R.)*',
+    'Join: D3(R) \u27A4 D1(R) C8(R) (Both Sides)',
 
 
   ];
 
+  // Data for carousel D05
+  const carouselD5Items = [
+    { type: 'img', src: '/images/manual/pres-D05.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-D05.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-D05.jpg', alt: 'Slide 2' },
 
+    {
+      type: 'video',
+      src: '/videos/manual/anim-D05.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselD5Captions = [
+    'Step Final Result',
+    'Part D5(R) Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Join: D5(R) \u27A4 D1(R) + D2(R) (Both Sides)',
+
+
+  ];
 
 
   //-------------------------------------------------------------------------------------------------------------------------------//
@@ -661,7 +700,12 @@ function BuildManual() {
           <section className="carousel-section">
             <MediaCarousel itemsData={carouselD3Items} captions={carouselD3Captions} title="21" />
           </section>
-
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselD4Items} captions={carouselD4Captions} title="21" />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselD5Items} captions={carouselD5Captions} title="22" />
+          </section>
 
         </section>
 
