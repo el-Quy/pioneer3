@@ -16,12 +16,12 @@ function BuildManual() {
   //-------------------------------------------------------------------------------------------------------------------------------//
 
 
-  // ***
-  const carousel1Items = [{ type: 'img', src: '/images/manual/ori_receiver.jpg', alt: 'Slide 1' }];
-  const carousel1Captions = ['Part A0 Print Orientation (P.C.N.R.)*'];
-
-
   // Data for carousel 1
+  const carousel1Items = [{ type: 'img', src: '/images/manual/ori_receiver.jpg', alt: 'Slide 1' }];
+  const carousel1Captions = ['Part A-0 Print Orientation (P.C.N.R.)*'];
+
+
+  // Data for carousel 2
   const carousel2Items = [
     { type: 'img', src: '/images/manual/pres-A-2.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/ori_receiver.jpg', alt: 'Slide 1' },
@@ -31,10 +31,10 @@ function BuildManual() {
   ];
   const carousel2Captions = [
     'Step Final Result',
-    'Part A0 Print Orientation (P.C.N.R.)*',
-    'Part A1(R) Print Orientation (P.C.N.R.)*',
-    'Join: A1(R) \u27A4 A0',
-    'Join: A1(L) \u27A4 A0',
+    'Part A-0 Print Orientation (P.C.N.R.)*',
+    'Part A-1(R) Print Orientation (P.C.N.R.)*',
+    'Join: A-1(R) \u27A4 A-0',
+    'Join: A-1(L) \u27A4 A-0',
   ];
 
   // Data for carousel 2
@@ -54,9 +54,9 @@ function BuildManual() {
   ];
   const carousel3Captions = [
     'Step Final Result',
-    'Part A2 Print Orientation (P.C.N.R.)*',
-    'Join: A2 \u27A4 A1',
-    'Join: A2 \u27A4 A1',
+    'Part A-2 Print Orientation (P.C.N.R.)*',
+    'Join: A-2 \u27A4 A-1',
+    'Join: A-2 \u27A4 A-1',
   ];
 
   // Data for carousel 3
@@ -78,10 +78,10 @@ function BuildManual() {
   ];
   const carousel4Captions = [
     'Step Final Result',
-    'Part A3 Print Orientation (P.C.N.R.)*',
+    'Part A-3 Print Orientation (P.C.N.R.)*',
     'Release Trigger Mechanism',
-    'Join: A3 \u27A4 A0',
-    'Join: A3 \u27A4 A0',
+    'Join: A-3 \u27A4 A-0',
+    'Join: A-3 \u27A4 A-0',
   ];
 
   // Data for carousel 4
@@ -97,10 +97,10 @@ function BuildManual() {
   ];
   const carousel5Captions = [
     'Step Final Result',
-    'Part A5 Print Orientation (P.C.N.R.)*',
-    'Part A6 Print Orientation (P.C.N.R.)*',
-    'Join: A6 \u27A4 A5',
-    'Join: A6 \u27A4 A5',
+    'Part A-5 Print Orientation (P.C.N.R.)*',
+    'Part A-6 Print Orientation (P.C.N.R.)*',
+    'Join: A-6 \u27A4 A-5',
+    'Join: A-6 \u27A4 A-5',
   ];
 
   // Data for carousel 5
@@ -123,9 +123,9 @@ function BuildManual() {
   ];
   const carousel6Captions = [
     'Step Final Result',
-    'Join: A5 \u27A4 A2 + A3',
-    'Join: A5 \u27A4 A2 + A3',
-    'Join: A5 \u27A4 A2 + A3',
+    'Join: A-5 \u27A4 A-2 & A-3',
+    'Join: A-5 \u27A4 A-2 & A-3',
+    'Join: A-5 \u27A4 A-2 & A-3',
   ];
 
   // Data for carousel6
@@ -146,9 +146,9 @@ function BuildManual() {
   ];
   const carousel7Captions = [
     'Step Final Result',
-    'Part A3 Print Orientation (P.C.N.R.)*',
-    'Join: A4 \u27A4 A3',
-    'Join: A4 \u27A4 A3',
+    'Part A-3 Print Orientation (P.C.N.R.)*',
+    'Join: A-4 \u27A4 A-3',
+    'Join: A-4 \u27A4 A-3',
   ];
 
   //-------------------------------------------------------------------------------------------------------------------------------//
@@ -169,9 +169,9 @@ function BuildManual() {
   ];
   const carousel8Captions = [
     'Step Final Result',
-    'Part B0 Print Orientation (P.C.N.R.)*',
-    'Part B1 Print Orientation (P.C.N.R.)*',
-    'Join: B0 \u27A4 B1',
+    'Part B-0 Print Orientation (P.C.N.R.)*',
+    'Part B-1 Print Orientation (P.C.N.R.)*',
+    'Join: B-0 \u27A4 B-1',
 
   ];
 
@@ -194,9 +194,9 @@ function BuildManual() {
 
   const carousel9Captions = [
     'Step Final Result',
-    'Part B2 Print Orientation (P.C.N.R.)*',
-    'Join: B2 \u27A4 B1',
-    'Join: B2 \u27A4 B1'
+    'Part B-2 Print Orientation (P.C.N.R.)*',
+    'Join: B-2 \u27A4 B-1',
+    'Join: B-2 \u27A4 B-1'
 
   ];
 
@@ -219,9 +219,9 @@ function BuildManual() {
 
   const carousel10Captions = [
     'Step Final Result',
-    'Part B3 Print Orientation (P.C.N.R.)*',
-    'Join: B0 \u27A4 B0 B2',
-    'Join: B0 \u27A4 B0 B2',
+    'Part B-3 Print Orientation (P.C.N.R.)*',
+    'Join: B-0 \u27A4 B-0 B-2',
+    'Join: B-0 \u27A4 B-0 B-2',
 
   ];
 
@@ -246,9 +246,9 @@ function BuildManual() {
   ];
   const carousel11Captions = [
     'Step Final Result',
-    'Part B4 Print Orientation (P.C.N.R.)*',
-    'Join: B0 \u27A4 B0 + B2 + B3',
-    'Join: B0 \u27A4 B0 + B2 + B3',
+    'Part B-4 Print Orientation (P.C.N.R.)*',
+    'Join: B-0 \u27A4 B-0 & B-2 & B-3',
+    'Join: B-0 \u27A4 B-0 & B-2 & B-3',
 
   ];
 
@@ -276,11 +276,11 @@ function BuildManual() {
   ];
   const carouselC1Captions = [
     'Step Final Result',
-    'Part C1 Print Orientation (P.C.N.R.)*',
-    'Part C2 Print Orientation (P.C.N.R.)*',
+    'Part C-1 Print Orientation (P.C.N.R.)*',
+    'Part C-2 Print Orientation (P.C.N.R.)*',
     'Key Connections & Order',
-    'Join: C2 \u27A4 C1',
-    'Join: C2 \u27A4 C1',
+    'Join: C-2 \u27A4 C-1',
+    'Join: C-2 \u27A4 C-1',
   ];
 
   // Data for carousel C2
@@ -303,10 +303,10 @@ function BuildManual() {
   ];
   const carouselC2Captions = [
     'Step Final Result',
-    'Part A3 Print Orientation (P.C.N.R.)*',
+    'Part C-3 Print Orientation (P.C.N.R.)*',
     'Key Connections',
-    'Join: A3 \u27A4 C2',
-    'Join: A3 \u27A4 C2 (Both Sides)',
+    'Join: C-3 \u27A4 C-2',
+    'Join: C-3 \u27A4 C-2 (Both Sides)',
   ];
 
   // Data for carousel C3 step 13
@@ -324,9 +324,9 @@ function BuildManual() {
   ];
   const carouselC3Captions = [
     'Step Final Result',
-    'Part C4 Print Orientation (P.C.N.R.)*',
+    'Part C-4 Print Orientation (P.C.N.R.)*',
     'Key Connections',
-    'Join: C4 \u27A4 C2',
+    'Join: C-4 \u27A4 C-2',
 
   ];
 
@@ -351,11 +351,11 @@ function BuildManual() {
   ];
   const carouselC4Captions = [
     'Step Final Result',
-    'Part C5 Print Orientation (P.C.N.R.)*',
+    'Part C-5 Print Orientation (P.C.N.R.)*',
     'Key Connections',
     'Key Connections',
-    'Join: C5 \u27A4 C1 + C2 + A3 + C4 (Both Sides)',
-    'Join: C5 \u27A4 C1 + C2 + A3 + C4 (Both Sides)',
+    'Join: C-5 \u27A4 C-1 & C-2 & C-3 & C-4 (Both Sides)',
+    'Join: C-5 \u27A4 C-1 & C-2 & C-3 & C-4 (Both Sides)',
   ];
 
   // Data for carousel C5
@@ -375,9 +375,9 @@ function BuildManual() {
   ];
   const carouselC5Captions = [
     'Step Final Result',
-    'Part C6 Print Orientation (P.C.N.R.)*',
+    'Part C-6 Print Orientation (P.C.N.R.)*',
     'Key Connections',
-    'Join: C6 \u27A4 C4',
+    'Join: C-6 \u27A4 C-4',
 
   ];
 
@@ -401,10 +401,10 @@ function BuildManual() {
   ];
   const carouselC6Captions = [
     'Step Final Result',
-    'Part C7 Print Orientation (P.C.N.R.)*',
+    'Part C-7 Print Orientation (P.C.N.R.)*',
     'Key Connections',
-    'Join: C7 \u27A4 C4 + C6',
-    'Join: C7 \u27A4 C4 + C6',
+    'Join: C-7 \u27A4 C-4 & C-6',
+    'Join: C-7 \u27A4 C-4 & C-6',
   ];
 
   // Data for carousel C7
@@ -422,8 +422,8 @@ function BuildManual() {
   ];
   const carouselC7Captions = [
     'Step Final Result',
-    'Part C8 Print Orientation (P.C.N.R.)*',
-    'Join: C8 \u27A4 C7 (Both Sides)',
+    'Part C-8 Print Orientation (P.C.N.R.)*',
+    'Join: C-8 \u27A4 C-7 (Both Sides)',
 
   ];
 
@@ -435,7 +435,7 @@ function BuildManual() {
     { type: 'img', src: '/images/manual/pres-D00.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/xtra-D01.jpg', alt: 'Slide 2' },
     { type: 'img', src: '/images/manual/xtra-D02.jpg', alt: 'Slide 2' },
-    { type: 'img', src: '/images/manual/xtra-D01-03.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-D03.jpg', alt: 'Slide 2' },
     {
       type: 'video',
       src: '/videos/manual/anim-d00-0.mp4',
@@ -459,8 +459,8 @@ function BuildManual() {
     'Key Connections',
     'Key Connections',
     'Join: Sub-assemblies A \u27A4 B \u27A4 C',
-    'Join: C4 \u27A4 A0',
-    'Join: B4 \u27A4 A3 A4 A3',
+    'Join: C-4 \u27A4 A-0',
+    'Join: B-4 \u27A4 A-3 A-4 C-3',
   ];
 
 
@@ -488,54 +488,44 @@ function BuildManual() {
   ];
   const carouselD1Captions = [
     'Step Final Result',
-    'Part D1 Print Orientation (P.C.N.R.)*',
-    'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
-    'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
-    'Join: D1(R) Release Mechanism',
+    'Part D-1 Print Orientation (P.C.N.R.)*',
+    'Join: D-1(R) \u27A4 A-3 $ A-4 & C-3(R)(Both Sides)',
+    'Join: D-1(R) \u27A4 A-3 $ A-4 & C-3(R)(Both Sides)',
+    'Join: D-1(R) Release Mechanism',
 
   ];
 
+
   // Data for carousel D02
   const carouselD2Items = [
-    { type: 'img', src: '/images/manual/pres-D02R.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-D02R.jpg', alt: 'Slide 2' },
-    { type: 'img', src: '/images/manual/ori-D04R.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/pres-D02.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-D02.jpg', alt: 'Slide 2' },
     {
       type: 'video',
-      src: '/videos/manual/anim-D02.mp4',
+      src: '/videos/manual/anim-D01-0.mp4',
       alt: 'Alt video',
     },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-D01-3.mp4',
+      alt: 'Alt video',
+    },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-D01-4.mp4',
+      alt: 'Alt video',
+    },
+
 
   ];
   const carouselD2Captions = [
     'Step Final Result',
-    'Part D2R Print Orientation (P.C.N.R.)*',
-    'Part D4R Print Orientation (P.C.N.R.)*',
-    'Join: D4(R) \u27A4 D2(R) (Both Sides)',
-
-
-  ];
-
-  // Data for carousel D03
-  const carouselD3Items = [
-    { type: 'img', src: '/images/manual/pres-D03.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/xtra-D03.jpg', alt: 'Slide 2' },
-
-    {
-      type: 'video',
-      src: '/videos/manual/anim-D03.mp4',
-      alt: 'Alt video',
-    },
+    'Part D-1 Print Orientation (P.C.N.R.)*',
+    'Join: D-1(R) \u27A4 A-3 $ A-4 & C-3(R)(Both Sides)',
+    'Join: D-1(R) \u27A4 A-3 $ A-4 & C-3(R)(Both Sides)',
+    'Join: D-1(R) Release Mechanism',
 
   ];
-  const carouselD3Captions = [
-    'Step Final Result',
-    'Key Connections',
-    'Join: D2(R) \u27A4 D1(R) C8(R) (Both Sides)',
-
-
-  ];
-
 
 
 
@@ -657,9 +647,6 @@ function BuildManual() {
           </section>
           <section className="carousel-section">
             <MediaCarousel itemsData={carouselD2Items} captions={carouselD2Captions} title="20" />
-          </section>
-          <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD3Items} captions={carouselD3Captions} title="21" />
           </section>
 
 
