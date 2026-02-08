@@ -597,7 +597,7 @@ function BuildManual() {
   ];
   const carouselE1Captions = [
     'Step Final Result',
-    'Part D5(R) Print Orientation (P.C.N.R.)*',
+    'Part E1 Print Orientation (P.C.N.R.)*',
     'Key Connections',
     'Join: E1 \u27A4 A4 (Partially)',
 
@@ -613,6 +613,11 @@ function BuildManual() {
 
     {
       type: 'video',
+      src: '/videos/manual/anim-E02-2.mp4',
+      alt: 'Alt video',
+    },
+    {
+      type: 'video',
       src: '/videos/manual/anim-E02.mp4',
       alt: 'Alt video',
     },
@@ -623,17 +628,23 @@ function BuildManual() {
     'Part E2(R) Print Orientation (P.C.N.R.)*',
     'Key Connections',
     'Join: E2(R) \u27A4 A4(R) (Partially, Both Sides)',
+    'Join: E2(R) \u27A4 A4(R) (Partially, Both Sides)',
   ];
 
 
-  // Data for carousel E02
+  // Data for carousel E03
   const carouselE3Items = [
     { type: 'img', src: '/images/manual/pres-E03.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/xtra-E03.jpg', alt: 'Slide 2' },
-
     {
       type: 'video',
       src: '/videos/manual/anim-E03-1.mp4',
+      alt: 'Alt video',
+    },
+    { type: 'img', src: '/images/manual/xtra-E03-1.jpg', alt: 'Slide 2' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-E03-2.mp4',
       alt: 'Alt video',
     },
 
