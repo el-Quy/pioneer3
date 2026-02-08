@@ -582,6 +582,69 @@ function BuildManual() {
   //------------------------------------------------------- DATA FOR SUB E --------------------------------------------------------//
   //-------------------------------------------------------------------------------------------------------------------------------//
 
+  // Data for carousel E01
+  const carouselE1Items = [
+    { type: 'img', src: '/images/manual/pres-E01.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-E01.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-E1.jpg', alt: 'Slide 2' },
+
+    {
+      type: 'video',
+      src: '/videos/manual/anim-E01.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselE1Captions = [
+    'Step Final Result',
+    'Part D5(R) Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Join: E1 \u27A4 A4 (Partially)',
+
+
+  ];
+
+
+  // Data for carousel E02
+  const carouselE2Items = [
+    { type: 'img', src: '/images/manual/pres-E02.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-E02.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-E02.jpg', alt: 'Slide 2' },
+
+    {
+      type: 'video',
+      src: '/videos/manual/anim-E02.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselE2Captions = [
+    'Step Final Result',
+    'Part E2(R) Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Join: E2(R) \u27A4 A4(R) (Partially, Both Sides)',
+  ];
+
+
+  // Data for carousel E02
+  const carouselE3Items = [
+    { type: 'img', src: '/images/manual/pres-E03.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-E03.jpg', alt: 'Slide 2' },
+
+    {
+      type: 'video',
+      src: '/videos/manual/anim-E03-1.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselE3Captions = [
+    'Step Final Result',
+    'Key Connections',
+    'Join: E3(R) \u27A4 B4 (Both Sides)',
+
+
+  ];
 
   //-------------------------------------------------------------------------------------------------------------------------------//
   //------------------------------------------------------- DATA FOR SUB F --------------------------------------------------------//
@@ -716,7 +779,13 @@ function BuildManual() {
             <img className="overflow-image" src="./images/decorative/assemblyA.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carousel1Items} captions={carousel1Captions} title="1" />
+            <MediaCarousel itemsData={carouselE1Items} captions={carouselE1Captions} title="23" />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselE2Items} captions={carouselE2Captions} title="23" />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselE3Items} captions={carouselE3Captions} title="23" />
           </section>
         </section>
 
