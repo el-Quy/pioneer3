@@ -491,7 +491,7 @@ function BuildManual() {
     'Part D1(R) Print Orientation (P.C.N.R.)*',
     'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
     'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
-    'Join: D1(R) Release Mechanism',
+    'Release Mechanism',
 
   ];
 
@@ -627,8 +627,8 @@ function BuildManual() {
     'Step Final Result',
     'Part E2(R) Print Orientation (P.C.N.R.)*',
     'Key Connections',
-    'Join: E2(R) \u27A4 A4(R) (Partially, Both Sides)',
-    'Join: E2(R) \u27A4 A4(R) (Partially, Both Sides)',
+    'Join: E2(R) \u27A4 A4 (Partially, Both Sides)',
+    'Join: E2(R) \u27A4 A4 (Partially, Both Sides)',
   ];
 
 
@@ -653,14 +653,76 @@ function BuildManual() {
     'Step Final Result',
     'Key Connections',
     'Join: E3(R) \u27A4 B4 (Both Sides)',
+  ];
+
+  // Data for carousel E04
+  const carouselE4Items = [
+    { type: 'img', src: '/images/manual/pres-E04.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-E04.jpg', alt: 'Slide 2' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-E04.mp4',
+      alt: 'Alt video',
+    },
+    { type: 'img', src: '/images/manual/xtra-E04-02.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-E04-03.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-E04-01.jpg', alt: 'Slide 2' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-E04_rel.mp4',
+      alt: 'Alt video',
+    },
 
 
   ];
+  const carouselE4Captions = [
+    'Step Final Result',
+    'Part E4 Print Orientation (P.C.N.R.)*',
+    'Join: E4(L) \u27A4 A4 + B4 + E2(L) (Both Sides)',
+    'Join: E4(L) \u27A4 A4 (Both Sides)',
+    'Join: E4(L) \u27A4 B4 (Both Sides)',
+    'Join: E4(L) \u27A4 E2(L) (Both Sides)',
+    'Release Mechanism',
+
+  ];
+
+
+
 
   //-------------------------------------------------------------------------------------------------------------------------------//
   //------------------------------------------------------- DATA FOR SUB F --------------------------------------------------------//
   //-------------------------------------------------------------------------------------------------------------------------------//
 
+  // Data for carousel F01  
+  const carouselF1Items = [
+    { type: 'img', src: '/images/manual/pres-F01.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-F01.jpg', alt: 'Slide 2' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-F01.mp4',
+      alt: 'Alt video',
+    },
+    { type: 'img', src: '/images/manual/xtra-F01-02.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-F01-03.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-F01-01.jpg', alt: 'Slide 2' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-F01_rel.mp4',
+      alt: 'Alt video',
+    },
+
+
+  ];
+  const carouselF1Captions = [
+    'Step Final Result',
+    'Part F1 Print Orientation (P.C.N.R.)*',
+    'Join: F1(R) \u27A4 A4 + B4 + E2(L) (Both Sides)',
+    'Join: F1(R) \u27A4 A4 (Both Sides)',
+    'Join: F1(R) \u27A4 B4 (Both Sides)',
+    'Join: F1(R) \u27A4 E2(L) (Both Sides)',
+    'Release Mechanism',
+
+  ];
 
 
 
@@ -793,12 +855,17 @@ function BuildManual() {
             <MediaCarousel itemsData={carouselE1Items} captions={carouselE1Captions} title="23" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselE2Items} captions={carouselE2Captions} title="23" />
+            <MediaCarousel itemsData={carouselE2Items} captions={carouselE2Captions} title="24" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselE3Items} captions={carouselE3Captions} title="23" />
+            <MediaCarousel itemsData={carouselE3Items} captions={carouselE3Captions} title="25" />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselE4Items} captions={carouselE4Captions} title="26" />
           </section>
         </section>
+
+
 
         <section>
           <h3 className="subassembly-title">
