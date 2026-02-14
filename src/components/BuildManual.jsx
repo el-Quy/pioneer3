@@ -79,7 +79,7 @@ function BuildManual() {
   const carousel4Captions = [
     'Step Final Result',
     'Part A3 Print Orientation (P.C.N.R.)*',
-    'Release Trigger Mechanism',
+    'Release Trigger Mechanism if Needed',
     'Join: A3 \u27A4 A0',
     'Join: A3 \u27A4 A0',
   ];
@@ -491,7 +491,7 @@ function BuildManual() {
     'Part D1(R) Print Orientation (P.C.N.R.)*',
     'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
     'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
-    'Release Mechanism',
+    'Release Mechanism if Needed',
 
   ];
 
@@ -682,12 +682,9 @@ function BuildManual() {
     'Join: E4(L) \u27A4 A4 (Both Sides)',
     'Join: E4(L) \u27A4 B4 (Both Sides)',
     'Join: E4(L) \u27A4 E2(L) (Both Sides)',
-    'Release Mechanism',
+    'Release Mechanism if Needed',
 
   ];
-
-
-
 
   //-------------------------------------------------------------------------------------------------------------------------------//
   //------------------------------------------------------- DATA FOR SUB F --------------------------------------------------------//
@@ -696,46 +693,109 @@ function BuildManual() {
   // Data for carousel F01  
   const carouselF1Items = [
     { type: 'img', src: '/images/manual/pres-F01.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/ori-F01.jpg', alt: 'Slide 2' },
+
     {
       type: 'video',
       src: '/videos/manual/anim-F01.mp4',
       alt: 'Alt video',
     },
-    { type: 'img', src: '/images/manual/xtra-F01-02.jpg', alt: 'Slide 2' },
-    { type: 'img', src: '/images/manual/xtra-F01-03.jpg', alt: 'Slide 2' },
-    { type: 'img', src: '/images/manual/xtra-F01-01.jpg', alt: 'Slide 2' },
-    {
-      type: 'video',
-      src: '/videos/manual/anim-F01_rel.mp4',
-      alt: 'Alt video',
-    },
+
 
 
   ];
   const carouselF1Captions = [
     'Step Final Result',
     'Part F1 Print Orientation (P.C.N.R.)*',
-    'Join: F1(R) \u27A4 A4 + B4 + E2(L) (Both Sides)',
-    'Join: F1(R) \u27A4 A4 (Both Sides)',
-    'Join: F1(R) \u27A4 B4 (Both Sides)',
-    'Join: F1(R) \u27A4 E2(L) (Both Sides)',
-    'Release Mechanism',
+  ];
 
+  // Data for carousel F02  
+  const carouselF2Items = [
+    { type: 'img', src: '/images/manual/pres-F02.jpg', alt: 'Slide 1' },
+
+    {
+      type: 'video',
+      src: '/videos/manual/anim-F02.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselF2Captions = [
+    'Step Final Result',
+    'Part F2 Print Orientation (P.C.N.R.)*',
+  ];
+
+
+  // Data for carousel F03   
+  const carouselF3Items = [
+    { type: 'img', src: '/images/manual/pres-F03.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-F03.jpg', alt: 'Slide 1' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-F03.mp4',
+      alt: 'Alt video',
+    },
+
+
+
+  ];
+  const carouselF3Captions = [
+    'Step Final Result',
+    'Part F3 Print Orientation (P.C.N.R.)*',
+  ];
+
+
+  // Data for carousel F04   
+  const carouselF5Items = [
+    { type: 'img', src: '/images/manual/pres-F04.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-F04.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-F04.jpg', alt: 'Slide 1' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-F04.mp4',
+      alt: 'Alt video',
+    },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-F05.mp4',
+      alt: 'Alt video',
+    },
+  ];
+  const carouselF5Captions = [
+    'Step Final Result',
+    'Part F5 Print Orientation (P.C.N.R.)*',
   ];
 
 
 
 
+  // Data for carousel F06   
+  const carouselF6Items = [
+    { type: 'img', src: '/images/manual/pres-F05.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-F06.jpg', alt: 'Slide 1' },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-F06.mp4',
+      alt: 'Alt video',
+    },
+    {
+      type: 'video',
+      src: '/videos/manual/anim-F07.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselF6Captions = [
+    'Step Final Result',
+    'Part F6 Print Orientation (P.C.N.R.)*',
+  ];
+
+
   return (
     <div>
-
-
       <Nav />
-
-
       <div className="manual-page build-manual">
         <br />
+
 
         <section>
           <h2>PIONEER.3</h2>
@@ -744,8 +804,6 @@ function BuildManual() {
             <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
             <img className="overflow-image" src="./images/decorative/assemblyA.png" alt="assemblyA" />
           </h3>
-
-
           <section className="carousel-section">
             <MediaCarousel itemsData={carousel2Items} captions={carousel2Captions} title="1" />
           </section>
@@ -766,14 +824,13 @@ function BuildManual() {
           </section>
         </section>
 
+
         <section>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY B
             <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
             <img className="overflow-image" src="./images/decorative/assemblyB.png" alt="assemblyA" />
           </h3>
-
-
           <section className="carousel-section">
             <MediaCarousel itemsData={carousel8Items} captions={carousel8Captions} title="7" />
           </section>
@@ -786,8 +843,9 @@ function BuildManual() {
           <section className="carousel-section">
             <MediaCarousel itemsData={carousel11Items} captions={carousel11Captions} title="10" />
           </section>
-
         </section>
+
+
 
         <section>
           <h3 className="subassembly-title">
@@ -849,7 +907,7 @@ function BuildManual() {
           <h3 className="subassembly-title">
             SUB-ASSEMBLY E
             <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
-            <img className="overflow-image" src="./images/decorative/assemblyA.png" alt="assemblyA" />
+            <img className="overflow-image" src="./images/decorative/assemblyE.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
             <MediaCarousel itemsData={carouselE1Items} captions={carouselE1Captions} title="23" />
@@ -871,10 +929,22 @@ function BuildManual() {
           <h3 className="subassembly-title">
             SUB-ASSEMBLY F
             <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
-            <img className="overflow-image" src="./images/decorative/assemblyA.png" alt="assemblyA" />
+            <img className="overflow-image" src="./images/decorative/assemblyF.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carousel1Items} captions={carousel1Captions} title="1" />
+            <MediaCarousel itemsData={carouselF1Items} captions={carouselF1Captions} title="1" />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselF2Items} captions={carouselF2Captions} title="2" />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselF3Items} captions={carouselF3Captions} title="3" />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselF5Items} captions={carouselF5Captions} title="5 " />
+          </section>
+          <section className="carousel-section">
+            <MediaCarousel itemsData={carouselF6Items} captions={carouselF6Captions} title="6" />
           </section>
         </section>
       </div>
