@@ -252,6 +252,24 @@ function BuildManual() {
 
   ];
 
+
+  // Data for carousel 11
+
+
+  const carouselb5Items = [
+    {
+      type: 'video',
+      src: '/videos/manual/anim-B05.mp4',
+      alt: 'Alt video',
+    },
+
+  ];
+  const carouselb5Captions = [
+    'Test the Mechanism',
+
+
+  ];
+
   //-------------------------------------------------------------------------------------------------------------------------------//
   //------------------------------------------------------- DATA FOR SUB C --------------------------------------------------------//
   //-------------------------------------------------------------------------------------------------------------------------------//
@@ -693,61 +711,62 @@ function BuildManual() {
   // Data for carousel F01  
   const carouselF1Items = [
     { type: 'img', src: '/images/manual/pres-F01.jpg', alt: 'Slide 1' },
-
+    { type: 'img', src: '/images/manual/ori-F01L.jpg', alt: 'Slide 1' },
     {
       type: 'video',
       src: '/videos/manual/anim-F01.mp4',
       alt: 'Alt video',
     },
-
-
-
   ];
   const carouselF1Captions = [
     'Step Final Result',
     'Part F1 Print Orientation (P.C.N.R.)*',
+    'Join: F1(L) \u27A4 D2(L) (Both Sides)',
   ];
+
 
   // Data for carousel F02  
   const carouselF2Items = [
     { type: 'img', src: '/images/manual/pres-F02.jpg', alt: 'Slide 1' },
-
+    { type: 'img', src: '/images/manual/ori-F02.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-F02.jpg', alt: 'Slide 1' },
     {
       type: 'video',
       src: '/videos/manual/anim-F02.mp4',
       alt: 'Alt video',
     },
-
   ];
   const carouselF2Captions = [
     'Step Final Result',
     'Part F2 Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Join: F2 \u27A4 A0',
   ];
 
 
   // Data for carousel F03   
   const carouselF3Items = [
     { type: 'img', src: '/images/manual/pres-F03.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-F03.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/xtra-F03.jpg', alt: 'Slide 1' },
     {
       type: 'video',
       src: '/videos/manual/anim-F03.mp4',
       alt: 'Alt video',
     },
-
-
-
   ];
   const carouselF3Captions = [
     'Step Final Result',
     'Part F3 Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Join: F3 \u27A4 C2',
   ];
 
 
   // Data for carousel F04   
   const carouselF5Items = [
     { type: 'img', src: '/images/manual/pres-F04.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/xtra-F04.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-F04.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/xtra-F04.jpg', alt: 'Slide 1' },
     {
       type: 'video',
@@ -762,19 +781,21 @@ function BuildManual() {
   ];
   const carouselF5Captions = [
     'Step Final Result',
-    'Part F5 Print Orientation (P.C.N.R.)*',
+    'Part F4 Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Operatate Mechanism',
+    'Join: F4 \u27A4 B2 + C3(R) (Both Sides)',
   ];
 
 
-
-
-  // Data for carousel F06   
+  // Data for carousel F05   
   const carouselF6Items = [
     { type: 'img', src: '/images/manual/pres-F05.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/xtra-F06.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/ori-F05.jpg', alt: 'Slide 1' },
+    { type: 'img', src: '/images/manual/xtra-F05.jpg', alt: 'Slide 1' },
     {
       type: 'video',
-      src: '/videos/manual/anim-F06.mp4',
+      src: '/videos/manual/anim-F05-1.mp4',
       alt: 'Alt video',
     },
     {
@@ -786,7 +807,10 @@ function BuildManual() {
   ];
   const carouselF6Captions = [
     'Step Final Result',
-    'Part F6 Print Orientation (P.C.N.R.)*',
+    'Part F5 Print Orientation (P.C.N.R.)*',
+    'Key Connections',
+    'Join: F5 \u27A4 F5 + B2',
+    'Operatate Mechanism',
   ];
 
 
@@ -844,8 +868,9 @@ function BuildManual() {
             <MediaCarousel itemsData={carousel11Items} captions={carousel11Captions} title="10" />
           </section>
         </section>
-
-
+        <section className="carousel-section">
+          <MediaCarousel itemsData={carouselb5Items} captions={carouselb5Captions} title="11" />
+        </section>
 
         <section>
           <h3 className="subassembly-title">
@@ -854,25 +879,25 @@ function BuildManual() {
             <img className="overflow-image" src="./images/decorative/assemblyC.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselC1Items} captions={carouselC1Captions} title="11" />
+            <MediaCarousel itemsData={carouselC1Items} captions={carouselC1Captions} title="12" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselC2Items} captions={carouselC2Captions} title="12" />
+            <MediaCarousel itemsData={carouselC2Items} captions={carouselC2Captions} title="13" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselC3Items} captions={carouselC3Captions} title="13" />
+            <MediaCarousel itemsData={carouselC3Items} captions={carouselC3Captions} title="14" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselC4Items} captions={carouselC4Captions} title="14" />
+            <MediaCarousel itemsData={carouselC4Items} captions={carouselC4Captions} title="15" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselC5Items} captions={carouselC5Captions} title="15" />
+            <MediaCarousel itemsData={carouselC5Items} captions={carouselC5Captions} title="16" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselC6Items} captions={carouselC6Captions} title="16" />
+            <MediaCarousel itemsData={carouselC6Items} captions={carouselC6Captions} title="17" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselC7Items} captions={carouselC7Captions} title="17" />
+            <MediaCarousel itemsData={carouselC7Items} captions={carouselC7Captions} title="18" />
           </section>
 
         </section>
@@ -883,22 +908,22 @@ function BuildManual() {
             <img className="overflow-image" src="./images/decorative/assemblyD.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD0Items} captions={carouselD0Captions} title="18" />
+            <MediaCarousel itemsData={carouselD0Items} captions={carouselD0Captions} title="19" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD1Items} captions={carouselD1Captions} title="19" />
+            <MediaCarousel itemsData={carouselD1Items} captions={carouselD1Captions} title="20" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD2Items} captions={carouselD2Captions} title="20" />
+            <MediaCarousel itemsData={carouselD2Items} captions={carouselD2Captions} title="21" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD3Items} captions={carouselD3Captions} title="21" />
+            <MediaCarousel itemsData={carouselD3Items} captions={carouselD3Captions} title="22" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD4Items} captions={carouselD4Captions} title="21" />
+            <MediaCarousel itemsData={carouselD4Items} captions={carouselD4Captions} title="23" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselD5Items} captions={carouselD5Captions} title="22" />
+            <MediaCarousel itemsData={carouselD5Items} captions={carouselD5Captions} title="24" />
           </section>
 
         </section>
@@ -910,16 +935,16 @@ function BuildManual() {
             <img className="overflow-image" src="./images/decorative/assemblyE.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselE1Items} captions={carouselE1Captions} title="23" />
+            <MediaCarousel itemsData={carouselE1Items} captions={carouselE1Captions} title="25" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselE2Items} captions={carouselE2Captions} title="24" />
+            <MediaCarousel itemsData={carouselE2Items} captions={carouselE2Captions} title="26" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselE3Items} captions={carouselE3Captions} title="25" />
+            <MediaCarousel itemsData={carouselE3Items} captions={carouselE3Captions} title="27" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselE4Items} captions={carouselE4Captions} title="26" />
+            <MediaCarousel itemsData={carouselE4Items} captions={carouselE4Captions} title="28" />
           </section>
         </section>
 
@@ -932,19 +957,19 @@ function BuildManual() {
             <img className="overflow-image" src="./images/decorative/assemblyF.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselF1Items} captions={carouselF1Captions} title="1" />
+            <MediaCarousel itemsData={carouselF1Items} captions={carouselF1Captions} title="29" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselF2Items} captions={carouselF2Captions} title="2" />
+            <MediaCarousel itemsData={carouselF2Items} captions={carouselF2Captions} title="30" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselF3Items} captions={carouselF3Captions} title="3" />
+            <MediaCarousel itemsData={carouselF3Items} captions={carouselF3Captions} title="31" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselF5Items} captions={carouselF5Captions} title="5 " />
+            <MediaCarousel itemsData={carouselF5Items} captions={carouselF5Captions} title="32" />
           </section>
           <section className="carousel-section">
-            <MediaCarousel itemsData={carouselF6Items} captions={carouselF6Captions} title="6" />
+            <MediaCarousel itemsData={carouselF6Items} captions={carouselF6Captions} title="33" />
           </section>
         </section>
       </div>
