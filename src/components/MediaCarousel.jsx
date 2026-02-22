@@ -12,28 +12,33 @@ function MediaCarousel({ itemsData, captions, title }) {
 
   const items = useMemo(
     () =>
-      itemsData.map((data, index) => (
-        <div className="item" data-value={index + 1} key={index + 1}>
-          <div className="carousel-frame">
-            {data.type === 'img' ? (
-              <img src={data.src} alt={data.alt} className="media" />
-            ) : (
-              <video
-                className="media"
-                muted
-                playsInline
-                preload="metadata"
-                loop
-                ref={(el) => (videoRefs.current[index] = el)}
-              >
-                <source src={data.src} type="video/mp4" />
-              </video>
-            )}
+      itemsData.map((data, index) => {
+        const alt = data.alt || captions[index] || '';
+
+        return (
+          <div className="item" data-value={index + 1} key={index + 1}>
+            <div className="carousel-frame">
+              {data.type === 'img' ? (
+                <img src={data.src} alt={alt} className="media" />
+              ) : (
+                <video
+                  className="media"
+                  muted
+                  playsInline
+                  preload="metadata"
+                  loop
+                  ref={(el) => (videoRefs.current[index] = el)}
+                >
+                  <source src={data.src} type="video/mp4" />
+                </video>
+              )}
+            </div>
           </div>
-        </div>
-      )),
-    [itemsData],
+        );
+      }),
+    [itemsData, captions]
   );
+
 
   const total = items.length;
   const [activeIndex, setActiveIndex] = useState(0);
@@ -43,7 +48,7 @@ function MediaCarousel({ itemsData, captions, title }) {
     const v = videoRefs.current[activeIndex];
     if (v) {
       const p = v.play();
-      if (p && typeof p.then === 'function') p.catch(() => {});
+      if (p && typeof p.then === 'function') p.catch(() => { });
     }
   }, [activeIndex]);
 
@@ -68,47 +73,47 @@ function MediaCarousel({ itemsData, captions, title }) {
         <p className="media-caption">{captions[activeIndex]}</p>
       </div>
 
-     <button
-  type="button"
-  className={`btn-prev ${atStart ? 'is-disabled' : ''}`}
-  aria-label="Previous"
-  aria-disabled={atStart}
-  onClick={() => !atStart && carouselRef.current?.slidePrev()}
-  onMouseEnter={() => !atStart && setHoverPrev(true)}
-  onMouseLeave={() => !atStart && setHoverPrev(false)}
->
-  <img
-    src={
-      atStart
-        ? '/images/ui/buttonGalleryBack-greyed.svg'
-        : hoverPrev
-          ? '/images/ui/buttonGalleryBack-hover.svg'
-          : '/images/ui/buttonGalleryBack.svg'
-    }
-    alt=""
-  />
-</button>
+      <button
+        type="button"
+        className={`btn-prev ${atStart ? 'is-disabled' : ''}`}
+        aria-label="Previous"
+        aria-disabled={atStart}
+        onClick={() => !atStart && carouselRef.current?.slidePrev()}
+        onMouseEnter={() => !atStart && setHoverPrev(true)}
+        onMouseLeave={() => !atStart && setHoverPrev(false)}
+      >
+        <img
+          src={
+            atStart
+              ? '/images/ui/buttonGalleryBack-greyed.svg'
+              : hoverPrev
+                ? '/images/ui/buttonGalleryBack-hover.svg'
+                : '/images/ui/buttonGalleryBack.svg'
+          }
+          alt=""
+        />
+      </button>
 
-<button
-  type="button"
-  className={`btn-next ${atEnd ? 'is-disabled' : ''}`}
-  aria-label="Next"
-  aria-disabled={atEnd}
-  onClick={() => !atEnd && carouselRef.current?.slideNext()}
-  onMouseEnter={() => !atEnd && setHoverNext(true)}
-  onMouseLeave={() => !atEnd && setHoverNext(false)}
->
-  <img
-    src={
-      atEnd
-        ? '/images/ui/buttonGalleryForward-greyed.svg'
-        : hoverNext
-          ? '/images/ui/buttonGalleryForward-hover.svg'
-          : '/images/ui/buttonGalleryForward.svg'
-    }
-    alt=""
-  />
-</button>
+      <button
+        type="button"
+        className={`btn-next ${atEnd ? 'is-disabled' : ''}`}
+        aria-label="Next"
+        aria-disabled={atEnd}
+        onClick={() => !atEnd && carouselRef.current?.slideNext()}
+        onMouseEnter={() => !atEnd && setHoverNext(true)}
+        onMouseLeave={() => !atEnd && setHoverNext(false)}
+      >
+        <img
+          src={
+            atEnd
+              ? '/images/ui/buttonGalleryForward-greyed.svg'
+              : hoverNext
+                ? '/images/ui/buttonGalleryForward-hover.svg'
+                : '/images/ui/buttonGalleryForward.svg'
+          }
+          alt=""
+        />
+      </button>
 
     </div>
   );

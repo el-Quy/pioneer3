@@ -18,7 +18,7 @@ function BuildManual() {
 
   // ***
   const carousel1Items = [{ type: 'img', src: '/images/manual/ori_receiver.jpg', alt: 'Slide 1' }];
-  const carousel1Captions = ['Part A0 Print Orientation (P.C.N.R.)*'];
+  const carousel1Captions = ['Part A0 Print Orientation (O.C.N.R.)*'];
 
 
   // Data for carousel 1
@@ -31,8 +31,8 @@ function BuildManual() {
   ];
   const carousel2Captions = [
     'Step Final Result',
-    'Part A0 Print Orientation (P.C.N.R.)*',
-    'Part A1(R) Print Orientation (P.C.N.R.)*',
+    'Part A0 Print Orientation (O.C.N.R.)*',
+    'Part A1(R) Print Orientation (O.C.N.R.)*',
     'Join: A1(R) \u27A4 A0',
     'Join: A1(L) \u27A4 A0',
   ];
@@ -54,7 +54,7 @@ function BuildManual() {
   ];
   const carousel3Captions = [
     'Step Final Result',
-    'Part A2 Print Orientation (P.C.N.R.)*',
+    'Part A2 Print Orientation (O.C.N.R.)*',
     'Join: A2 \u27A4 A1',
     'Join: A2 \u27A4 A1',
   ];
@@ -78,7 +78,7 @@ function BuildManual() {
   ];
   const carousel4Captions = [
     'Step Final Result',
-    'Part A3 Print Orientation (P.C.N.R.)*',
+    'Part A3 Print Orientation (O.C.N.R.)*',
     'Release Trigger Mechanism if Needed',
     'Join: A3 \u27A4 A0',
     'Join: A3 \u27A4 A0',
@@ -97,8 +97,8 @@ function BuildManual() {
   ];
   const carousel5Captions = [
     'Step Final Result',
-    'Part A5 Print Orientation (P.C.N.R.)*',
-    'Part A6 Print Orientation (P.C.N.R.)*',
+    'Part A5 Print Orientation (O.C.N.R.)*',
+    'Part A6 Print Orientation (O.C.N.R.)*',
     'Join: A6 \u27A4 A5',
     'Join: A6 \u27A4 A5',
   ];
@@ -146,7 +146,7 @@ function BuildManual() {
   ];
   const carousel7Captions = [
     'Step Final Result',
-    'Part A3 Print Orientation (P.C.N.R.)*',
+    'Part A3 Print Orientation (O.C.N.R.)*',
     'Join: A4 \u27A4 A3',
     'Join: A4 \u27A4 A3',
   ];
@@ -169,8 +169,8 @@ function BuildManual() {
   ];
   const carousel8Captions = [
     'Step Final Result',
-    'Part B0 Print Orientation (P.C.N.R.)*',
-    'Part B1 Print Orientation (P.C.N.R.)*',
+    'Part B0 Print Orientation (O.C.N.R.)*',
+    'Part B1 Print Orientation (O.C.N.R.)*',
     'Join: B0 \u27A4 B1',
 
   ];
@@ -194,7 +194,7 @@ function BuildManual() {
 
   const carousel9Captions = [
     'Step Final Result',
-    'Part B2 Print Orientation (P.C.N.R.)*',
+    'Part B2 Print Orientation (O.C.N.R.)*',
     'Join: B2 \u27A4 B1',
     'Join: B2 \u27A4 B1'
 
@@ -219,7 +219,7 @@ function BuildManual() {
 
   const carousel10Captions = [
     'Step Final Result',
-    'Part B3 Print Orientation (P.C.N.R.)*',
+    'Part B3 Print Orientation (O.C.N.R.)*',
     'Join: B0 \u27A4 B0 B2',
     'Join: B0 \u27A4 B0 B2',
 
@@ -246,7 +246,7 @@ function BuildManual() {
   ];
   const carousel11Captions = [
     'Step Final Result',
-    'Part B4 Print Orientation (P.C.N.R.)*',
+    'Part B4 Print Orientation (O.C.N.R.)*',
     'Join: B0 \u27A4 B0 + B2 + B3',
     'Join: B0 \u27A4 B0 + B2 + B3',
 
@@ -294,8 +294,8 @@ function BuildManual() {
   ];
   const carouselC1Captions = [
     'Step Final Result',
-    'Part C1 Print Orientation (P.C.N.R.)*',
-    'Part C2 Print Orientation (P.C.N.R.)*',
+    'Part C1 Print Orientation (O.C.N.R.)*',
+    'Part C2 Print Orientation (O.C.N.R.)*',
     'Key Connections & Order',
     'Join: C2 \u27A4 C1',
     'Join: C2 \u27A4 C1',
@@ -321,7 +321,7 @@ function BuildManual() {
   ];
   const carouselC2Captions = [
     'Step Final Result',
-    'Part A3 Print Orientation (P.C.N.R.)*',
+    'Part A3 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: A3 \u27A4 C2',
     'Join: A3 \u27A4 C2 (Both Sides)',
@@ -342,7 +342,7 @@ function BuildManual() {
   ];
   const carouselC3Captions = [
     'Step Final Result',
-    'Part C4 Print Orientation (P.C.N.R.)*',
+    'Part C4 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: C4 \u27A4 C2',
 
@@ -369,7 +369,7 @@ function BuildManual() {
   ];
   const carouselC4Captions = [
     'Step Final Result',
-    'Part C5 Print Orientation (P.C.N.R.)*',
+    'Part C5 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Key Connections',
     'Join: C5 \u27A4 C1 + C2 + A3 + C4 (Both Sides)',
@@ -393,7 +393,7 @@ function BuildManual() {
   ];
   const carouselC5Captions = [
     'Step Final Result',
-    'Part C6 Print Orientation (P.C.N.R.)*',
+    'Part C6 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: C6 \u27A4 C4',
 
@@ -419,7 +419,7 @@ function BuildManual() {
   ];
   const carouselC6Captions = [
     'Step Final Result',
-    'Part C7 Print Orientation (P.C.N.R.)*',
+    'Part C7 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: C7 \u27A4 C4 + C6',
     'Join: C7 \u27A4 C4 + C6',
@@ -440,7 +440,7 @@ function BuildManual() {
   ];
   const carouselC7Captions = [
     'Step Final Result',
-    'Part C8 Print Orientation (P.C.N.R.)*',
+    'Part C8 Print Orientation (O.C.N.R.)*',
     'Join: C8 \u27A4 C7 (Both Sides)',
 
   ];
@@ -506,7 +506,7 @@ function BuildManual() {
   ];
   const carouselD1Captions = [
     'Step Final Result',
-    'Part D1(R) Print Orientation (P.C.N.R.)*',
+    'Part D1(R) Print Orientation (O.C.N.R.)*',
     'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
     'Join: D1(R) \u27A4 A3 + A4 + A3(R) (Both Sides)',
     'Release Mechanism if Needed',
@@ -527,8 +527,8 @@ function BuildManual() {
   ];
   const carouselD2Captions = [
     'Step Final Result',
-    'Part D2(R) Print Orientation (P.C.N.R.)*',
-    'Part D4(R) Print Orientation (P.C.N.R.)*',
+    'Part D2(R) Print Orientation (O.C.N.R.)*',
+    'Part D4(R) Print Orientation (O.C.N.R.)*',
     'Join: D4(R) \u27A4 D2(R) (Both Sides)',
 
 
@@ -567,7 +567,7 @@ function BuildManual() {
   ];
   const carouselD4Captions = [
     'Step Final Result',
-    'Part D3(R) Print Orientation (P.C.N.R.)*',
+    'Part D3(R) Print Orientation (O.C.N.R.)*',
     'Join: D3(R) \u27A4 D1(R) C8(R) (Both Sides)',
 
 
@@ -588,7 +588,7 @@ function BuildManual() {
   ];
   const carouselD5Captions = [
     'Step Final Result',
-    'Part D5(R) Print Orientation (P.C.N.R.)*',
+    'Part D5(R) Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: D5(R) \u27A4 D1(R) + D2(R) (Both Sides)',
 
@@ -615,7 +615,7 @@ function BuildManual() {
   ];
   const carouselE1Captions = [
     'Step Final Result',
-    'Part E1 Print Orientation (P.C.N.R.)*',
+    'Part E1 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: E1 \u27A4 A4 (Partially)',
 
@@ -643,7 +643,7 @@ function BuildManual() {
   ];
   const carouselE2Captions = [
     'Step Final Result',
-    'Part E2(R) Print Orientation (P.C.N.R.)*',
+    'Part E2(R) Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: E2(R) \u27A4 A4 (Partially, Both Sides)',
     'Join: E2(R) \u27A4 A4 (Partially, Both Sides)',
@@ -695,7 +695,7 @@ function BuildManual() {
   ];
   const carouselE4Captions = [
     'Step Final Result',
-    'Part E4 Print Orientation (P.C.N.R.)*',
+    'Part E4 Print Orientation (O.C.N.R.)*',
     'Join: E4(L) \u27A4 A4 + B4 + E2(L) (Both Sides)',
     'Join: E4(L) \u27A4 A4 (Both Sides)',
     'Join: E4(L) \u27A4 B4 (Both Sides)',
@@ -720,7 +720,7 @@ function BuildManual() {
   ];
   const carouselF1Captions = [
     'Step Final Result',
-    'Part F1 Print Orientation (P.C.N.R.)*',
+    'Part F1 Print Orientation (O.C.N.R.)*',
     'Join: F1(L) \u27A4 D2(L) (Both Sides)',
   ];
 
@@ -738,7 +738,7 @@ function BuildManual() {
   ];
   const carouselF2Captions = [
     'Step Final Result',
-    'Part F2 Print Orientation (P.C.N.R.)*',
+    'Part F2 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: F2 \u27A4 A0',
   ];
@@ -757,7 +757,7 @@ function BuildManual() {
   ];
   const carouselF3Captions = [
     'Step Final Result',
-    'Part F3 Print Orientation (P.C.N.R.)*',
+    'Part F3 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: F3 \u27A4 C2',
   ];
@@ -781,7 +781,7 @@ function BuildManual() {
   ];
   const carouselF5Captions = [
     'Step Final Result',
-    'Part F4 Print Orientation (P.C.N.R.)*',
+    'Part F4 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Operatate Mechanism',
     'Join: F4 \u27A4 B2 + C3(R) (Both Sides)',
@@ -807,7 +807,7 @@ function BuildManual() {
   ];
   const carouselF6Captions = [
     'Step Final Result',
-    'Part F5 Print Orientation (P.C.N.R.)*',
+    'Part F5 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Join: F5 \u27A4 F5 + B2',
     'Operatate Mechanism',
@@ -825,7 +825,7 @@ function BuildManual() {
           <h2>PIONEER.3</h2>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY A
-            <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
+            <span className="post-cure-warning">Over-Curing NOT Recommended*(OCNR)</span>{' '}
             <img className="overflow-image" src="./images/decorative/assemblyA.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
@@ -852,7 +852,7 @@ function BuildManual() {
         <section>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY B
-            <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
+            <span className="post-cure-warning">Over-Curing NOT Recommended*(OCNR)</span>{' '}
             <img className="overflow-image" src="./images/decorative/assemblyB.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
@@ -875,7 +875,7 @@ function BuildManual() {
         <section>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY C
-            <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
+            <span className="post-cure-warning">Over-Curing NOT Recommended*(OCNR)</span>{' '}
             <img className="overflow-image" src="./images/decorative/assemblyC.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
@@ -904,7 +904,7 @@ function BuildManual() {
         <section>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY D
-            <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
+            <span className="post-cure-warning">Over-Curing NOT Recommended*(OCNR)</span>{' '}
             <img className="overflow-image" src="./images/decorative/assemblyD.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
@@ -931,7 +931,7 @@ function BuildManual() {
         <section>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY E
-            <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
+            <span className="post-cure-warning">Over-Curing NOT Recommended*(OCNR)</span>{' '}
             <img className="overflow-image" src="./images/decorative/assemblyE.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">
@@ -953,7 +953,7 @@ function BuildManual() {
         <section>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY F
-            <span className="post-cure-warning">Post-Curing NOT Recommended*(PCNR)</span>{' '}
+            <span className="post-cure-warning">Over-Curing NOT Recommended*(OCNR)</span>{' '}
             <img className="overflow-image" src="./images/decorative/assemblyF.png" alt="assemblyA" />
           </h3>
           <section className="carousel-section">

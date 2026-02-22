@@ -17,7 +17,7 @@ function QAndA() {
       q: 'Why this strange shape for the ship??',
       a: 'Thanks for asking! Two reasons: first, it was meant as a parody of the classic Benchee 3D print test. Second, when you flip it upside down, it totally looks like a mech head.'
     },
-    { q: 'Where does it come from?', a: 'Quisque eget luctus mi...' },
+    { q: 'Why post-curing is not recommended?', a: 'Post-curing can cause the material to become brittle and may lead to cracking or warping of the printed part. It is best to avoid post-curing to ensure the part has the flexibility to fit into the joints.' },
     { q: 'Why do we use it?', a: 'Suspendisse massa risus...' },
 
   ];
