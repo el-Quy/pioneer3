@@ -822,7 +822,11 @@ function BuildManual() {
 
 
         <section>
+          <br />
           <h2>PIONEER.3</h2>
+          <br />
+          <p className="warning" style={{ padding: "14px", color: "#c00" }}>  <strong>WARNING:</strong> Over-curing may cause warping or shrinkage, which can result in part incompatibility. A deep clean is often sufficient.
+          </p>
           <h3 className="subassembly-title">
             SUB-ASSEMBLY A
             <span className="post-cure-warning">Over-Curing NOT Recommended*(OCNR)</span>{' '}

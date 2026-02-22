@@ -132,7 +132,7 @@ function LandingPage() {
           <div className="howItWorks-instructions-item">
             <span>Resin Print</span>
             <br />
-            (No Postcuring)
+            (No Over-curing)
           </div>
           <div className="howItWorks-instructions-item">
             <span>Assemble</span>
