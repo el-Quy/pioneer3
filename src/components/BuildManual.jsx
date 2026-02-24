@@ -63,7 +63,7 @@ function BuildManual() {
   const carousel4Items = [
     { type: 'img', src: '/images/manual/pres-A-4.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/A-4.jpg', alt: 'Slide 1' },
-    { type: 'img', src: '/images/manual/xtra-A04.jpg', alt: 'Slide 1' },
+
 
     {
       type: 'video',
@@ -75,13 +75,15 @@ function BuildManual() {
       src: '/videos/manual/anim-a02-front.mp4',
       alt: 'Alt video',
     },
+    { type: 'img', src: '/images/manual/xtra-A04.jpg', alt: 'Slide 1' },
   ];
   const carousel4Captions = [
     'Step Final Result',
     'Part A3 Print Orientation (O.C.N.R.)*',
+
+    'Join: A3 \u27A4 A0',
+    'Join: A3 \u27A4 A0',
     'Release Trigger Mechanism if Needed',
-    'Join: A3 \u27A4 A0',
-    'Join: A3 \u27A4 A0',
   ];
 
   // Data for carousel 4
@@ -204,6 +206,7 @@ function BuildManual() {
   const carousel10Items = [
     { type: 'img', src: '/images/manual/pres-B03.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/ori-B03.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-B03.jpg', alt: 'Slide 2' },
     {
       type: 'video',
       src: '/videos/manual/anim-b02-1.mp4',
@@ -220,6 +223,7 @@ function BuildManual() {
   const carousel10Captions = [
     'Step Final Result',
     'Part B3 Print Orientation (O.C.N.R.)*',
+    'Key Connections',
     'Join: B0 \u27A4 B0 B2',
     'Join: B0 \u27A4 B0 B2',
 
@@ -231,6 +235,7 @@ function BuildManual() {
   const carousel11Items = [
     { type: 'img', src: '/images/manual/pres-B04.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/ori-B04.jpg', alt: 'Slide 2' },
+    { type: 'img', src: '/images/manual/xtra-B04.jpg', alt: 'Slide 2' },
     {
       type: 'video',
       src: '/videos/manual/anim-b03-1.mp4',
@@ -247,6 +252,7 @@ function BuildManual() {
   const carousel11Captions = [
     'Step Final Result',
     'Part B4 Print Orientation (O.C.N.R.)*',
+    'Key Connections',
     'Join: B0 \u27A4 B0 + B2 + B3',
     'Join: B0 \u27A4 B0 + B2 + B3',
 
