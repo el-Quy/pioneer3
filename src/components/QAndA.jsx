@@ -15,7 +15,7 @@ function QAndA() {
   const faqs = [
     { q: "I found a bug", a: "Please report any problem in the contact form below. Thank you for being part of this!" },
     { q: "Will there be a physical product sold?", a: "Not in the works right now.  I'm focused gauging the community responsefor now." },
-    { q: 'A part will does not properly', a: 'Verify all supports are cleaned off and do not post-cure the part.  Simply clean n rinse it thouroughly.  If all fails, please do come in touch through the contact form below.' },
+    { q: 'A part does not fit properly', a: 'Verify all supports are cleaned off and do not post-cure the part.  Simply clean n rinse it thouroughly.  If all fails, please do come in touch through the contact form below.' },
     { q: 'How easy is this build?', a: 'I would say intermediary. There is a learning curve to the 3d resin printing process.  Being organized goes a long way.  I recommend printing the steps as you go.  Follow the steps.' },
     { q: "Are you really giving it for free?", a: "Some contribution is always welcome but my goal here is share the build and grow the following.  This is an investment." },
     {
