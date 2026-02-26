@@ -379,8 +379,8 @@ function BuildManual() {
     'Part C5 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Key Connections',
-    'Join: C5(R) \u27A4 C1(R) + C2(R) + A3(R) + C4(R) (Both Sides)',
-    'Join: C5(L) \u27A4 C1(L) + C2(L) + A3(L) + C4(L) (Both Sides)',
+    'Join: C5(R) \u27A4 C1+ C2(R) + A3(R) + C4 (Both Sides)',
+    'Join: C5(L) \u27A4 C1 + C2(L) + A3(L) + C4 (Both Sides)',
   ];
 
   // Data for carousel C5

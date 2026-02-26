@@ -13,7 +13,7 @@ const Hero = () => {
             className="cta-button cta-gumroad"
             aria-label="Buy on Gumroad"
             onClick={() => {
-              window.open('https://quyzone.gumroad.com', '_blank', 'noopener,noreferrer');
+              window.open('https://quyzone.gumroad.com/l/pioneer3', '_blank', 'noopener,noreferrer');
             }}
           >
           </button>
