@@ -1,4 +1,5 @@
-import { Link as RouterLink, useLocation, useNavigate } from 'react-router-dom';
+//import { Link as RouterLink, useLocation, useNavigate } from 'react-router-dom';
+import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import MediaCarousel from './MediaCarousel';
 import '../styles/components/_BuildManual.scss';
@@ -17,8 +18,8 @@ function BuildManual() {
 
 
   // ***
-  const carousel1Items = [{ type: 'img', src: '/images/manual/ori_receiver.jpg', alt: 'Slide 1' }];
-  const carousel1Captions = ['Part A0 Print Orientation (O.C.N.R.)*'];
+  // const carousel1Items = [{ type: 'img', src: '/images/manual/ori_receiver.jpg', alt: 'Slide 1' }];
+  // const carousel1Captions = ['Part A0 Print Orientation (O.C.N.R.)*'];
 
 
   // Data for carousel 1
@@ -329,11 +330,11 @@ function BuildManual() {
     'Step Final Result',
     'Part A3 Print Orientation (O.C.N.R.)*',
     'Key Connections',
-    'Join: A3 \u27A4 C2',
-    'Join: A3 \u27A4 C2 (Both Sides)',
+    'Join: A3(R) \u27A4 C2 (Both Sides)',
+    'Join: A3(L) \u27A4 C2 (Both Sides)',
   ];
 
-  // Data for carousel C3 step 13
+  // Data for carousel C3 step 14
   const carouselC3Items = [
     { type: 'img', src: '/images/manual/pres-C03.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/ori-C04.jpg', alt: 'Slide 2' },
@@ -354,7 +355,7 @@ function BuildManual() {
 
   ];
 
-  // Data for carousel C4
+  // Data for carousel 15 
   const carouselC4Items = [
     { type: 'img', src: '/images/manual/pres-C04.jpg', alt: 'Slide 1' },
     { type: 'img', src: '/images/manual/ori-C05.jpg', alt: 'Slide 2' },
@@ -378,8 +379,8 @@ function BuildManual() {
     'Part C5 Print Orientation (O.C.N.R.)*',
     'Key Connections',
     'Key Connections',
-    'Join: C5 \u27A4 C1 + C2 + A3 + C4 (Both Sides)',
-    'Join: C5 \u27A4 C1 + C2 + A3 + C4 (Both Sides)',
+    'Join: C5(R) \u27A4 C1(R) + C2(R) + A3(R) + C4(R) (Both Sides)',
+    'Join: C5(L) \u27A4 C1(L) + C2(L) + A3(L) + C4(L) (Both Sides)',
   ];
 
   // Data for carousel C5

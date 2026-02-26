@@ -1,7 +1,9 @@
 import { useEffect, useRef } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { Parallax } from 'react-scroll-parallax';
-import { Element, Link as ScrollLink, scroller } from 'react-scroll';
+//import { Element, Link as ScrollLink, scroller } from 'react-scroll';
+
+import { Element, Link as ScrollLink } from 'react-scroll';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
