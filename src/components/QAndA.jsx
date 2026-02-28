@@ -25,7 +25,7 @@ function QAndA() {
     { q: 'Why over curing is not recommended?', a: 'Post-curing can cause the material to become brittle and may lead to cracking or warping of the printed part. It is best to avoid post-curing to ensure the part has the flexibility to fit into the joints. A deep clean is often sufficient.' },
     { q: "How much resin does a single build consume?", a: "If you include print supports plus the residual uncured film, expect to use about 1 kg of resin per build." },
     { q: "Graphic Novel?", a: "Yup! It's coming up!" },
-    { q: "is the proposed orientation the best?", a: "Yup! It's coming up!" },
+    { q: "is the proposed orientation the best?", a: "It's mostly a suggestion, you know your printer best.  I'd say if your gut feeling tells you otherwise, trust it." },
 
   ];
 
