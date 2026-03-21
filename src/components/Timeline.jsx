@@ -145,7 +145,7 @@ export default function TimeLine() {
           </div>
 
           <Parallax speed={0}>
-            <img src="/images/decorative/me.png" alt="mascot" className="mechabust-image" />
+            <img src="/images/decorative/pioneer3VsUniverse.png" alt="mascot" className="mechabust-image" />
           </Parallax>
         </div>
       </div>
