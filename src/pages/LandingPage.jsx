@@ -186,7 +186,7 @@ function LandingPage() {
           <TimeLine />
         </section>
       </Element>
-
+      {/* 
       <section className="section container testimonials">
         <blockquote>
           <p>
@@ -198,7 +198,7 @@ function LandingPage() {
           </div>
         </blockquote>
       </section>
-
+*/}
       {/* IMAGE AFTER TIMELINE*/}
       {/*  */}
       <Parallax speed={0}>
